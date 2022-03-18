@@ -9,3 +9,5 @@ Documents of [Minoko Novel](https://readonly.link/books/github.com/ShadowRZ/mino
 其实动机本来是想建二号站的，但是没有成功，于是决定作为资料站了。
 
 ~~然后就这么用了 VitePress~~
+
+如果有任何建议可以通过 [Disscussions](https://github.com/ShadowRZ/minoko-documents/discussions) 或 [Issues](https://github.com/ShadowRZ/minoko-documents/issues) 报告。
