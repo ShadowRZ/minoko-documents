@@ -10,6 +10,16 @@ export default defineConfig({
         editLinks: true,
         editLinkText: '编辑页面……',
         activeHeaderLinks: false,
+        nav: [
+            {'text': '主页', 'link': '/',},
+            {'text': '常见问题', 'link': '/faq.html',},
+        ],
+        sidebar: {
+            '/': [
+                {'text': '主页', 'link': '/',},
+                {'text': '常见问题', 'link': '/faq.html',},
+            ],
+        },
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
