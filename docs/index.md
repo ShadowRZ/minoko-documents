@@ -1,6 +1,6 @@
 # Minoko Documents
 
-Documents of [Minoko Novel](https://readonly.link/books/github.com/ShadowRZ/minoko-novel)
+Documents of [Minoko Novel](https://readonly.link/books/ShadowRZ/minoko-novel)
 
 ## 这是什么？
 
