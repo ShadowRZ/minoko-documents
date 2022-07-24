@@ -1,7 +1,8 @@
 {
 	"dependencies": {
 		"@fontsource/jost": "^4.5.10",
-		"vitepress": "^0.22.3"
+		"vitepress": "^1.0.0-alpha.4",
+		"vue": "^3.2.37"
 	},
 	"scripts": {
 		"docs:dev": "vitepress dev docs",
