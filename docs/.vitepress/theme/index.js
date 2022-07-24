@@ -1,5 +1,5 @@
 import Theme from 'vitepress/theme'
-import '@fontsource/recursive/latin.css'
+import '@fontsource/jost/latin.css'
 import './custom.css'
 
 export default {

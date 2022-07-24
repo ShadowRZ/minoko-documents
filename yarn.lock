@@ -153,10 +153,10 @@
     "@docsearch/css" "3.0.0"
     algoliasearch "^4.0.0"
 
-"@fontsource/recursive@^4.5.2":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/recursive/-/recursive-4.5.4.tgz#e8421deac7861ccb856fb9cfebeafef76b11ca85"
-  integrity sha512-mttusk5xE/yqwMmoAIOZkLtn9OtTkEeuobvfX9XnaS0aHnJ/r1SaloJHv2pl2REDamFO9MxgY/Zy6IRTpStalQ==
+"@fontsource/jost@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.10.tgz#3791f12003b5ba8bc360edd4ed9c266aa6183841"
+  integrity sha512-Zi1zNrtUUk8c3yxEhxhJkHg4xQEqMtlYeXk0F0kix7QrmYBtEC7OYSIJPfRD/5gRqF95Mdc2fIkvVWgaHCI5eQ==
 
 "@vitejs/plugin-vue@^2.2.0":
   version "2.3.1"

@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@fontsource/recursive": "^4.5.2",
+		"@fontsource/jost": "^4.5.10",
 		"vitepress": "^0.22.3"
 	},
 	"scripts": {
