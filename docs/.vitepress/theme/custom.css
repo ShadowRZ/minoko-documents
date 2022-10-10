@@ -1,5 +1,6 @@
 :root {
     --vp-c-brand: orange;
     --vp-c-brand-light: orange;
+    --vp-c-brand-dark: orange;
     --vp-font-family-base: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
