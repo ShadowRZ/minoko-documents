@@ -1,17 +1,16 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+    lang: 'zh-CN',
     title: 'Minoko Documents',
     description: 'Documents of Minoko Novel',
     lastUpdated: true,
     themeConfig: {
-        repo: 'ShadowRZ/minoko-documents',
         editLink: {
-            pattern: 'https://github.com/ShadowRZ/minoko-documents/edit/master/docs/:path',
+            repo: 'ShadowRZ/minoko-novel',
+            branch: 'master',
             text: '编辑页面……',
         },
-        activeHeaderLinks: false,
-        lastUpdatedText: '最后更新时间',
         nav: [
             { text: '主页', link: '/' },
             { text: '介绍', link: '/introduction.html' },
@@ -35,10 +34,6 @@ export default defineConfig({
                 ],
             },
         ],
-        docFooter: {
-            prev: '前一页面',
-            next: '下一页面'
-        }
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
