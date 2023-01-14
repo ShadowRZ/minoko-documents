@@ -8,5 +8,6 @@
 		"docs:dev": "vitepress dev docs",
 		"docs:build": "vitepress build docs",
 		"docs:serve": "vitepress serve docs"
-	}
+	},
+	"packageManager": "yarn@3.3.1"
 }
