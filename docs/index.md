@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Minoko Documents
+titleTemplate: Documents of Minoko Novel
 hero:
   name: Minoko Documents
   text: Documents of Minoko Novel

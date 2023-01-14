@@ -1649,7 +1649,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@fontsource/jost": ^4.5.10
-    vitepress: ^1.0.0-alpha.29
+    vitepress: ^1.0.0-alpha.36
     vue: ^3.2.37
   languageName: unknown
   linkType: soft
@@ -1873,7 +1873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress@npm:^1.0.0-alpha.29":
+"vitepress@npm:^1.0.0-alpha.36":
   version: 1.0.0-draft.8
   resolution: "vitepress@npm:1.0.0-draft.8"
   dependencies:
