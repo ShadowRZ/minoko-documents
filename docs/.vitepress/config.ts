@@ -13,26 +13,29 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: '介绍', link: '/introduction.html' },
+            { text: '出场角色', link: '/characters/' },
             { text: '常见问题', link: '/faq.html' },
             { text: 'GitHub', link: 'https://github.com/ShadowRZ/minoko-documents' },
         ],
-        sidebar: [
-            {
-                text: '内容列表',
-                collapsible: true,
-                items: [
-                    { text: '介绍', link: '/introduction.html' },
-                    { text: '常见问题', link: '/faq.html',},
-                ],
-            },
-            {
-                text: '出场角色',
-                collapsible: true,
-                items: [
-                    { text: '角色列表', link: '/characters/' },
-                ],
-            },
-        ],
+        sidebar: {
+            '/': [
+                {
+                    text: '内容列表',
+                    items: [
+                        { text: '介绍', link: '/introduction.html' },
+                        { text: '常见问题', link: '/faq.html',},
+                    ],
+                },
+            ],
+            '/characters/': [
+                {
+                    text: '出场角色',
+                    items: [
+                        { text: '索引', link: '/characters/' },
+                    ],
+                }
+            ]
+        },
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
