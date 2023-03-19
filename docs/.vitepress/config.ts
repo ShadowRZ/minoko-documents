@@ -7,8 +7,7 @@ export default defineConfig({
     lastUpdated: true,
     themeConfig: {
         editLink: {
-            repo: 'ShadowRZ/minoko-novel',
-            branch: 'master',
+            pattern: 'https://github.com/ShadowRZ/minoko-documents/edit/master/docs/:path',
             text: '编辑页面……',
         },
         nav: [

@@ -18,6 +18,8 @@ features:
     details: 部分装饰性内容可能发生巨大变化
   - title: Discussions
     details: 一起讨论：https://github.com/ShadowRZ/minoko-documents/discussions
+    link: https://github.com/ShadowRZ/minoko-documents/discussions
   - title: Issues
     details: 修正档案中的问题：https://github.com/ShadowRZ/minoko-documents/issues
+    link: https://github.com/ShadowRZ/minoko-documents/issues
 ---
