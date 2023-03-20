@@ -36,6 +36,15 @@ export default defineConfig({
                 }
             ]
         },
+        lastUpdatedText: '最后更新',
+        outlineTitle: '本页内容',
+        sidebarMenuLabel: '菜单',
+        darkModeSwitchLabel: '暗色开关',
+        docFooter: {
+            prev: '上一页',
+            next: '下一页',
+        },
+        returnToTopLabel: '返回顶部',
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],

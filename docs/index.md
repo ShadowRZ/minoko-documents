@@ -14,12 +14,12 @@ hero:
       text: View on GitHub
       link: https://github.com/ShadowRZ/minoko-documents
 features:
-  - title: "!!! 正在更新到 VitePress 1"
-    details: 部分装饰性内容可能发生巨大变化
   - title: Discussions
     details: 一起讨论：https://github.com/ShadowRZ/minoko-documents/discussions
     link: https://github.com/ShadowRZ/minoko-documents/discussions
+    linkText: 前往目标地址
   - title: Issues
     details: 修正档案中的问题：https://github.com/ShadowRZ/minoko-documents/issues
     link: https://github.com/ShadowRZ/minoko-documents/issues
+    linkText: 前往目标地址
 ---
