@@ -21,9 +21,17 @@ export default defineConfig({
             '/': [
                 {
                     text: '内容列表',
+                    collapsed: false,
                     items: [
                         { text: '介绍', link: '/introduction.html' },
                         { text: '常见问题', link: '/faq.html',},
+                    ],
+                },
+                {
+                    text: 'Minoko Documents',
+                    collapsed: false,
+                    items: [
+                        { text: '编写约定', link: '/conventions.html' },
                     ],
                 },
             ],
@@ -31,7 +39,7 @@ export default defineConfig({
                 {
                     text: '出场角色',
                     items: [
-                        { text: '索引', link: '/characters/' },
+                        { text: '索引及概述', link: '/characters/' },
                     ],
                 }
             ]
@@ -45,6 +53,7 @@ export default defineConfig({
             next: '下一页',
         },
         returnToTopLabel: '返回顶部',
+        outline: 'deep',
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
@@ -55,4 +64,10 @@ export default defineConfig({
         ['meta', { name: 'msapplication-TileColor', href: '#da532c' }],
         ['meta', { name: 'theme-color', href: '#ffffff' }],
     ],
+
+    markdown: {
+        config: (md) => {
+            md.use(require('markdown-it-footnote'))
+        },
+    },
 })

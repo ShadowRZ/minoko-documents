@@ -1,6 +1,7 @@
 {
 	"dependencies": {
 		"@fontsource/jost": "^4.5.10",
+		"markdown-it-footnote": "^3.0.3",
 		"vitepress": "^1.0.0-alpha.60",
 		"vue": "^3.2.37"
 	},
@@ -9,5 +10,8 @@
 		"docs:build": "vitepress build docs",
 		"docs:serve": "vitepress serve docs"
 	},
-	"packageManager": "yarn@3.3.1"
+	"packageManager": "yarn@3.3.1",
+	"devDependencies": {
+		"@types/node": "^18.15.5"
+	}
 }
