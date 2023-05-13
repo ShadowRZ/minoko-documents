@@ -25,6 +25,7 @@ export default defineConfig({
                     items: [
                         { text: '介绍', link: '/introduction.html' },
                         { text: '常见问题', link: '/faq.html',},
+                        { text: '勘误表', link: '/errata.html',},
                     ],
                 },
                 {
