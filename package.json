@@ -2,7 +2,7 @@
 	"dependencies": {
 		"@fontsource/jost": "^4.5.10",
 		"markdown-it-footnote": "^3.0.3",
-		"vitepress": "^1.0.0-alpha.60",
+		"vitepress": "^1.0.0-beta.1",
 		"vue": "^3.2.37"
 	},
 	"scripts": {
