@@ -15,7 +15,6 @@ export default defineConfig({
             { text: '介绍', link: '/introduction.html' },
             { text: '出场角色', link: '/characters/' },
             { text: '常见问题', link: '/faq.html' },
-            { text: 'GitHub', link: 'https://github.com/ShadowRZ/minoko-documents' },
         ],
         sidebar: {
             '/': [
@@ -56,6 +55,9 @@ export default defineConfig({
         returnToTopLabel: '返回顶部',
         outline: 'deep',
         aside: false,
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/ShadowRZ/minoko-documents', },
+        ],
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],

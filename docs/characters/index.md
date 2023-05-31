@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 <script setup>
-import RealityCharacters from '../../components/RealityCharacters.vue'
+import Characters from '../../c../../components/Characters.vue'
 </script>
 
 
@@ -24,19 +24,24 @@ import RealityCharacters from '../../components/RealityCharacters.vue'
 
 ### 现实角色
 
+除非特殊说明，每个角色的剧情设计都是参考了一个对应的现实角色，具体的参考角色可参考名字下侧的名字 Handle。
+
 ::: info
-[祢洛子的头像来源（外部链接）](https://picrew.me/share?cd=FnEWfMRQF5)
+此处展示的所有人的头像均使用 Picrew 服务生成，设定上属于角色在小说中的聊天头像，但不一定代表其设定。
+
+以下列举：
+* [祢洛子（外部链接）](https://picrew.me/share?cd=FnEWfMRQF5)
+* [叶琴玉（外部链接）](https://picrew.me/share?cd=OZT2wXRRFt)
+* [喵咪卡（外部链接）](https://picrew.me/share?cd=gtvhlPTJHd)
+* [Alynx Zhou（外部链接）](https://picrew.me/share?cd=MGDvpXk1aF)
+* [莫洛洛（外部链接）](https://picrew.me/share?cd=gxdYe6HV1B)
 :::
 
-<RealityCharacters />
+<Characters type="real" />
 
 ### 作品角色
 
-* 结城理
-* 佐仓双叶
-* 白钟直斗
-* 山岸风花
-* 坂本龙司
+<Characters type="imag" />
 
 ## 附篇角色
 
