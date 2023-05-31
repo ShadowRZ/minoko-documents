@@ -8,3 +8,9 @@
     --vp-c-brand-dark: orange;
     --vp-font-family-base: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+@media (min-width: 960px) {
+    .VPDoc .VPDocOutlineDropdown {
+      display: block !important;
+    }
+}  

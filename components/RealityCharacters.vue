@@ -3,7 +3,7 @@ import CharacterDescription from './CharacterDescription.vue'
 </script>
 
 <template>
-  <div class="mt-4 flex flex-wrap flex-col sm:flex-row">
+  <div class="mt-4 flex flex-wrap flex-row">
     <CharacterDescription name='祢洛子' desc='@ShadowRZ' image='/avatars/1589275_k0mxyaNR.webp'/>
     <CharacterDescription name='Alynx Zhou' desc='@AlynxZhou' image='/avatars/Mikoto_Karon_White.webp'/>
     <CharacterDescription name='叶琴玉' desc='@Ken_Ookami_Horo' image='/avatars/d1fb2d725bf54240.webp'/>
