@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./docs/**/*.{md,html,js,vue}",
+    "./components/**/*.{js,vue}",
   ],
   theme: {
     extend: {},

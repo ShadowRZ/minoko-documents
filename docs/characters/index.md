@@ -2,6 +2,11 @@
 prev: false
 next: false
 ---
+<script setup>
+import RealityCharacters from '../../components/RealityCharacters.vue'
+</script>
+
+
 # 角色列表 <Badge type="warning" text="TODO" />
 
 ::: warning
@@ -19,11 +24,11 @@ next: false
 
 ### 现实角色
 
-* AlynxZhou
-* 祢洛子
-* 叶琴玉
-* 莫洛洛
-* 喵咪卡
+::: info
+[祢洛子的头像来源（外部链接）](https://picrew.me/share?cd=FnEWfMRQF5)
+:::
+
+<RealityCharacters />
 
 ### 作品角色
 
