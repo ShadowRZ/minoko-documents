@@ -35,6 +35,7 @@ import Characters from '../../c../../components/Characters.vue'
 * [喵咪卡（外部链接）](https://picrew.me/share?cd=gtvhlPTJHd)
 * [Alynx Zhou（外部链接）](https://picrew.me/share?cd=MGDvpXk1aF)
 * [莫洛洛（外部链接）](https://picrew.me/share?cd=gxdYe6HV1B)
+* [叶奈红波（外部链接）](https://picrew.me/share?cd=9tBWTgrhvi)
 :::
 
 <Characters type="real" />
