@@ -441,6 +441,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/vue@npm:^2.0.18":
+  version: 2.0.18
+  resolution: "@heroicons/vue@npm:2.0.18"
+  peerDependencies:
+    vue: ">= 3"
+  checksum: c3ca6f4fec2e4df9c84386b7029d007b906c228c592fc99858628ac350a1a194b662da60f5e08eb06e7e75c8eb740732069b87ba5313d92be25575fb2be5ab6d
+  languageName: node
+  linkType: hard
+
 "@jridgewell/gen-mapping@npm:^0.3.2":
   version: 0.3.3
   resolution: "@jridgewell/gen-mapping@npm:0.3.3"
@@ -2347,6 +2356,7 @@ __metadata:
     "@fontsource/jost": ^4.5.10
     "@headlessui/tailwindcss": ^0.1.3
     "@headlessui/vue": ^1.7.13
+    "@heroicons/vue": ^2.0.18
     "@types/node": ^18.15.5
     autoprefixer: ^10.4.14
     csv-parse: ^5.4.0

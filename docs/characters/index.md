@@ -55,5 +55,4 @@ import Characters from '../../c../../components/Characters.vue'
 目前，这一节的内容不按照在前一节中的分类标准进行分类，其分类标准有待确定。
 :::
 
-* [新井素羽](extra/suwa-arai.md)
-* [路菲尔](extra/luffy.md)
+<Characters type="extra" />

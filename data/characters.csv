@@ -1,12 +1,15 @@
-name,desc,image,type
-祢洛子,@ShadowRZ,/avatars/1589275_k0mxyaNR.webp,real
-Alynx Zhou,@AlynxZhou,/avatars/625876_b04M9val.webp,real
-叶琴玉,@Ken_Ookami_Horo,/avatars/888887_TWtPwTDE.webp,real
-莫洛洛,@outloudvi,/avatars/1387003_ZuAHMOff.webp,real
-喵咪卡,@felixonmars,/avatars/1394187_E46Df7CF.webp,real
+id,name,desc,image,type,link
+R01,祢洛子,@ShadowRZ,/avatars/1589275_k0mxyaNR.webp,real,
+R02,Alynx Zhou,@AlynxZhou,/avatars/625876_b04M9val.webp,real,
+R03,叶琴玉,@Ken_Ookami_Horo,/avatars/888887_TWtPwTDE.webp,real,
+R04,莫洛洛,@outloudvi,/avatars/1387003_ZuAHMOff.webp,real,
+R05,喵咪卡,@felixonmars,/avatars/1394187_E46Df7CF.webp,real,
 
-结城理,Makoto Yuki,/avatars/P3_Hero_PQ2.webp,imag
-佐仓双叶,Futaba Sakura,/avatars/Futaba_PQ2.webp,imag
-白钟直斗,Naoto Shirogane,/avatars/Naoto_PQ2.webp,imag
-山岸风花,Fuuka Yamagashi,/avatars/Fuuka_PQ2.webp,imag
-坂本龙司,Ryuji Sakamoto,/avatars/Ryuji_PQ2.webp,imag
+V01,结城理,Makoto Yuki,/avatars/P3_Hero_PQ2.webp,imag,
+V02,佐仓双叶,Futaba Sakura,/avatars/Futaba_PQ2.webp,imag,
+V03,白钟直斗,Naoto Shirogane,/avatars/Naoto_PQ2.webp,imag,
+V04,山岸风花,Fuuka Yamagashi,/avatars/Fuuka_PQ2.webp,imag,
+V05,坂本龙司,Ryuji Sakamoto,/avatars/Ryuji_PQ2.webp,imag,
+
+X01,新井素羽,a.k.a. CLOSER,,extra,/characters/extra/suwa-arai.html
+X02,路菲尔,a.k.a. CATTLE,,extra,/characters/extra/luffy.html
