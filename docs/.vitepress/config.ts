@@ -37,9 +37,41 @@ export default defineConfig({
             ],
             '/characters/': [
                 {
-                    text: '出场角色',
+                    text: '主线角色',
+                    collapsed: false,
                     items: [
-                        { text: '索引及概述', link: '/characters/' },
+                        {
+                            text: '现实角色',
+                            collapsed: false,
+                            items: [
+                                { text: '祢洛子', },
+                                { text: 'Alynx Zhou', },
+                                { text: '叶琴玉', },
+                                { text: '莫洛洛', },
+                                { text: '喵咪卡', },
+                                { text: '叶奈红波', },
+                            ],
+                        },
+                        {
+                            text: '作品角色',
+                            collapsed: false,
+                            items: [
+                                { text: '结城理', },
+                                { text: '佐仓双叶', },
+                                { text: '白钟直斗', },
+                                { text: '山岸风花', },
+                                { text: '坂本龙司', },
+                                { text: '奥村春', },
+                            ],
+                        },
+                    ],
+                },
+                {
+                    text: '附篇角色',
+                    collapsed: false,
+                    items: [
+                        { text: '新井素羽', link: '/characters/extra/suwa-arai.html' },
+                        { text: '路菲尔', link: '/characters/extra/luffy.html' },
                     ],
                 }
             ]

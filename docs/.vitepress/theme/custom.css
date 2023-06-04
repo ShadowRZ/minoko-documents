@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-    --vp-c-brand: orange;
-    --vp-c-brand-light: orange;
-    --vp-c-brand-dark: orange;
+    --vp-c-brand: #ec4899;
+    --vp-c-brand-light: #ec4899;
+    --vp-c-brand-dark: #ec4899;
     --vp-font-family-base: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
