@@ -7,7 +7,7 @@ defineProps(['name', 'desc', 'image'])
 
 <template>
   <div class="flex items-center px-1 py-1 space-x-2 w-56">
-    <template
+    <div
       class="rounded-full w-10 h-10 block mb-0.5 border-[0.5px] border-pink-300">
       <Avatar
         :src="withBase(image)"
@@ -16,7 +16,7 @@ defineProps(['name', 'desc', 'image'])
       <div class="bg-pink-100 aspect-square rounded-full flex items-center justify-center" v-else>
         <UserIcon class="w-4 h-4" />
       </div>
-    </template>
+    </div>
     <div class="flex flex-col">
       <strong>{{ name }}</strong>
       <span class="text-gray-400">{{ desc }}</span>
