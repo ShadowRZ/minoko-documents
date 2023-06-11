@@ -17,8 +17,8 @@
 		"docs:build": "vitepress build docs",
 		"docs:serve": "vitepress serve docs"
 	},
-	"packageManager": "yarn@3.3.1",
 	"devDependencies": {
-		"@types/node": "^18.15.5"
+		"@types/node": "^18.15.5",
+		"typescript": "^5.1.3"
 	}
 }
