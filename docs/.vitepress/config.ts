@@ -106,4 +106,18 @@ export default defineConfig({
             md.use(require('markdown-it-footnote'))
         },
     },
+    transformHead: ({ assets }) => {
+        // adjust the regex accordingly to match your font
+        const files = assets.filter(file => file.match(/jost-latin-[0-9]00.*\.woff2$/))
+        return files.map((file) => [
+            'link',
+            {
+                rel: 'preload',
+                href: file,
+                as: 'font',
+                type: 'font/woff2',
+                crossorigin: ''
+            }
+        ])
+    },
 })
