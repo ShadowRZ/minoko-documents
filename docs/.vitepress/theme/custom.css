@@ -33,7 +33,7 @@
   --vp-c-bg-alt: #fce7f3;
 
   --vp-c-text-1: #9d174d;
-  --vp-c-text-2: #9d174d;
+  --vp-c-text-2: #db2777;
   --vp-c-black: #9d174d;
   --vp-c-white: #fdf2f8;
 
@@ -57,7 +57,7 @@
 
   --vp-c-bg-alt: #831843;
 
-  --vp-c-text-1: #fbcfe8;
+  --vp-c-text-1: #fdf2f8;
   --vp-c-text-2: #fbcfe8;
 
   --vp-c-mute: #831843;
@@ -107,3 +107,13 @@
       display: block !important;
     }
 }  
+
+/* Variable / Extra weight Chinese fonts may not be avaliable */
+.VPSidebarItem.level-1 .text,
+.VPSidebarItem.level-2 .text,
+.VPSidebarItem.level-3 .text,
+.VPSidebarItem.level-4 .text,
+.VPSidebarItem.level-5 .text {
+  font-weight: normal !important;
+}
+
