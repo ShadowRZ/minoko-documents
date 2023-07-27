@@ -90,6 +90,7 @@ export default defineConfig({
         socialLinks: [
             { icon: 'github', link: 'https://github.com/ShadowRZ/minoko-documents', },
         ],
+        externalLinkIcon: true,
     },
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
